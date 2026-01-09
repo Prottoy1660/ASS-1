@@ -297,3 +297,152 @@ body {
   line-height: 1.55;
   color: #6b7280;
 }
+
+
+.second-brain {
+  background: #ffffff;
+  padding: 86px 0 96px;
+}
+
+.second-brain-inner {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  align-items: center;
+  gap: 72px;
+}
+
+.second-brain-media {
+  background: #f7fafc;
+  border-radius: 14px;
+  padding: 28px;
+  display: grid;
+  place-items: center;
+  min-height: 440px;
+}
+
+.second-brain-image {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  display: block;
+}
+
+.second-brain-eyebrow {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: #2ea66b;
+}
+
+.second-brain-title {
+  margin: 12px 0 0;
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: -0.6px;
+  line-height: 1.08;
+  color: #0b1b2a;
+}
+
+.second-brain-text {
+  margin: 14px 0 0;
+  font-size: 14px;
+  line-height: 1.65;
+  color: #6b7280;
+}
+
+.second-brain-list {
+  list-style: none;
+  padding: 0;
+  margin: 18px 0 0;
+  display: grid;
+  gap: 10px;
+}
+
+.second-brain-item {
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  align-items: start;
+  gap: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #0b1b2a;
+  line-height: 1.5;
+}
+
+.second-brain-check {
+  width: 16px;
+  height: 16px;
+  display: block;
+  margin-top: 2px;
+}
+
+.early-access {
+  background: #ffffff;
+  padding: 74px 0 110px;
+}
+
+.early-access-card {
+  background: #f7f5ef;
+  border-radius: 18px;
+  padding: 86px 24px 78px;
+  text-align: center;
+}
+
+.early-access-title {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: -0.6px;
+  color: #0b1b2a;
+}
+
+.early-access-subtitle {
+  margin: 18px auto 0;
+  max-width: 760px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #6b7280;
+}
+
+.early-access-btn {
+  margin-top: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #ffffff;
+  background: #3f8b63;
+  padding: 14px 26px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1;
+  box-shadow: 0 10px 18px #3f8b632e;
+  transition: background-color 160ms ease, transform 140ms ease;
+  user-select: none;
+}
+
+.early-access-btn-icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+  filter: brightness(0) invert(1);
+}
+
+.early-access-btn:hover {
+  background: #347553;
+  transform: translateY(-1px);
+}
+
+.early-access-btn:active {
+  background: #2c6548;
+  transform: translateY(0);
+}
+
+.early-access-foot {
+  margin: 26px 0 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #6b7280;
+}
