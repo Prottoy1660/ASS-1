@@ -94,8 +94,8 @@ body {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(900px 520px at 50% 34%, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.55)),
-    linear-gradient(180deg, rgba(2, 9, 18, 0.35), rgba(2, 9, 18, 0.65));
+    radial-gradient(900px 520px at 50% 34%, #00000014, #0000008c),
+    linear-gradient(180deg, #02091259, #020912a6);
 }
 
 .hero-inner {
@@ -108,8 +108,8 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background: rgba(255, 255, 255, 0.92);
-  border: 1px solid rgba(46, 166, 107, 0.18);
+  background: #ffffffeb;
+  border: 1px solid #2ea66b2e;
   border-radius: 999px;
   padding: 8px 14px;
 }
@@ -147,7 +147,7 @@ body {
   max-width: 760px;
   font-size: 16px;
   line-height: 1.7;
-  color: rgba(255, 255, 255, 0.78);
+  color: #ffffffc7;
 }
 
 .hero-actions {
@@ -187,9 +187,9 @@ body {
 }
 
 .hero-secondary {
-  background: rgba(0, 0, 0, 0.18);
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  color: rgba(255, 255, 255, 0.92);
+  background: #0000002e;
+  border: 1px solid #ffffff38;
+  color: #ffffffeb;
   padding-inline: 14px 18px;
 }
 
@@ -199,7 +199,7 @@ body {
   border-radius: 999px;
   display: grid;
   place-items: center;
-  background: rgba(255, 255, 255, 0.12);
+  background: #ffffff1f;
 }
 
 .hero-secondary-icon img {
@@ -214,8 +214,86 @@ body {
 }
 
 .hero-secondary:hover {
-  background: rgba(0, 0, 0, 0.26);
-  border-color: rgba(255, 255, 255, 0.32);
+  background: #00000042;
+  border-color: #ffffff52;
   transform: translateY(-1px);
 }
 
+
+.notes {
+  background: #ffffff;
+  padding: 84px 0 94px;
+}
+
+.notes-inner {
+  text-align: center;
+}
+
+.notes-title {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #0b1b2a;
+}
+
+.notes-subtitle {
+  margin: 14px auto 0;
+  max-width: 720px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #6b7280;
+}
+  
+.notes-grid {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 26px;
+}
+
+.note-card {
+  background: #ffffff;
+  border: 1px solid #e8eef6;
+  border-radius: 12px;
+  padding: 38px 26px 34px;
+  min-height: 272px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.06);
+}
+
+.note-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  background: #ff5b5b;
+  display: grid;
+  place-items: center;
+  margin-top: 2px;
+}
+
+.note-icon img {
+  width: 22px;
+  height: 22px;
+  display: block;
+  filter: brightness(0) invert(1);
+}
+
+.note-card-title {
+  margin: 22px 0 0;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.2px;
+  color: #0b1b2a;
+  line-height: 1.15;
+}
+
+.note-card-text {
+  margin: 14px 0 0;
+  font-size: 15px;
+  line-height: 1.55;
+  color: #6b7280;
+}
